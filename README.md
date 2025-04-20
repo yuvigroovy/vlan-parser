@@ -1,6 +1,6 @@
 # vlan-parser
 
-A simple tool to parse old formatted Cisco vlans to The newer format used in modern switches.
+A simple tool to parse old formatted Cisco vlans to the newer format used in modern switches.
 
 ### Installation
 Run the command ```npm i -g vlan-parser```.
