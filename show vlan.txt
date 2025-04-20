@@ -1,0 +1,75 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Te1/0/34, Te1/0/35, Te1/0/36
+                                                Te1/0/37, Te2/0/34, Te2/0/35
+                                                Te2/0/36, Te2/0/37
+10   Management                       active
+11   Building_Control                 active
+12   Access_Control                   active
+13   Air-Conditioner                  active
+14   Multimedia                       active
+20   Backup                           active    Te1/0/19, Te1/0/33, Te2/0/19
+                                                Te2/0/33
+21   Server1-MNGT                     active
+22   VSAN                             active
+23   vMotion                          active
+24   Discovery                        active
+29   NVR-CCTV-Server                  active
+30   NOC                              active
+31   Server2-IT                       active
+32   Server3                          active
+33   Server4                          active
+34   Server5                          active
+35   Server6                          active
+36   Server7                          active
+37   Server8                          active
+38   Server9                          active
+39   Server10-DMZ                     active
+40   Server11-DMZ                     active
+41   Net-MNGT                         active
+42   IT-Stuff                         active
+43   Guest                            active
+44   Supplier                         active
+48   Testing                          active
+49   Controllers                      active
+50   IP_Telephony                     active
+51   IP_Camera                        active
+52   Digital_Signage                  active
+53   Printers_1                       active
+54   Printers_2                       active
+55   Clocks/Timers                    active
+60   Management-WiFi                  active
+61   Service-port-WiFi                active
+62   IT-Stuff-WIFI                    active
+63   Guest-WIFI                       active
+65   Employee/Device-WIFI             active
+66   Employee_1                       active
+67   Employee_Mobile                  active
+69   Sync-HA-WiFi                     active
+70   IT_Staff1                        active
+71   IT_Staff2                        active
+72   IT_Staff3                        active
+73   IT_Staff4                        active
+74   IT_Staff5                        active
+75   IT_Staff6                        active
+76   IT_Staff7                        active
+77   IT_Staff8                        active
+78   IT_Staff9                        active
+79   IT_Staff10                       active
+95   HA-A_Palo                        active
+96   HA-B_Palo                        active
+101  Robot1                           active
+102  Robot2                           active
+103  Robot3                           active
+104  Robot4                           active
+105  Robot5                           active
+106  Robot6                           active
+151  IP_Camera2                       active
+1002 fddi-default                     act/unsup
+1003 trcrf-default                    act/unsup
+1004 fddinet-default                  act/unsup
+1005 trbrf-default                    act/unsup
+2050 test                             active    Te1/0/27, Te1/0/28, Te2/0/27
+                                                Te2/0/28
+2051 FW_DATA_OT2IT                    active
+3939 Discover-VXRail                  active
