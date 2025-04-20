@@ -37,21 +37,18 @@ program
     .description('A CLI tool that parses two input files')
     .usage('<file1> <file2>')
     .argument('<file1>', 'Path to first file')
-    .argument('<file2>', 'Output file')
+    .argument('<file2>', 'Output file name')
     .action((file1: string, file2: string) => {
         try {
             const filePath = path.resolve(file1);
             const outputFilePath = path.resolve(file2);
 
-            const rawFileContent = fs.readFileSync(filePath, 'utf-8');
-            const rows = rawFileContent.split('\n');
-            const vlanRecords = getVlanRecords(rows);
-            const formattedRecords = getFormattedRows(vlanRecords);
+            const rows = fs.readFileSync(filePath, 'utf-8').split('\n');
+            const formattedRecords = getFormattedRows(getVlanRecords(rows));
 
             fs.writeFileSync(outputFilePath, formattedRecords)
-            
         } catch (err: any) {
-            console.error('❌ Error reading files:', err.message);
+            console.error('❌ Error reading file with path:', file1);
             process.exit(1);
         }
     });
