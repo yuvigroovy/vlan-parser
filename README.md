@@ -15,5 +15,5 @@ Enter a string that defines the wanted format with ```${}``` to specify the vlan
 Available vlan options are ```${vlan.id}``` and ```${vlan.name}```.
 
 #### Example
-```vlan-parser old-vlans.txt new-vlans.txt```
+```vlan-parser old-vlans.txt new-vlans.txt```<br>
 With custom formatting: ```vlan-parser show-vlan.txt out.txt --format 'vlan ${vlan.id}\nname ${vlan.name}'```
